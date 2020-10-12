@@ -108,7 +108,6 @@ li[id$="_donate"] {
 	cursor: pointer;
 	background: no-repeat center center;
     background-size: 45px;
-	float: left;
     text-align: center;
 }
 li[id$="_donate"]::after {
@@ -131,7 +130,7 @@ li[id$="_donate"]:hover::after {
     width: 32px;
     height: 32px;
     position: absolute;
-    top: calc(50% - 16px);
+    top: calc(40%);
     background: no-repeat center center url(images/github.svg);
     background-size: contain;
     right: 72px;
